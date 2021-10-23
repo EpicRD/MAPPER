@@ -4,7 +4,7 @@ from geopy.geocoders import Nominatim
 
 print("Enter your City to map out: ")
 City = input()
-print("Enter your City to map out: ")
+print("Enter your Country to map out: ")
 Country = input()
 
 # instantiate a new Nominatim client

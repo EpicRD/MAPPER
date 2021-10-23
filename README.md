@@ -5,7 +5,7 @@ Kindly consider starring this repository if you like the program :-)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Epicalable/MAPPER) [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/Epicalable/MAPPER) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Epicalable/MAPPER/issues)
 
 ## WHAT DOES MAPPER HELP US TO DO?
-Mapper is a specialized under-testing all-terrain mapping program. While it is still not yet ready to be recommended to the average consumer it has passed our expectations to be posted on github for others to see and share. Mapper helps users to map out mainly roads or slight terrains of cities or even countries (if modified). It then produces an image with the city roads on a black background (Background colour is adjustable).
+Mapper is a specialized (UNDER TESTING) all-terrain mapping program. While it is still not yet ready to be commissioned and recommended for the average consumer however it has passed our expectations to be posted on github for others to see and share. Mapper helps users to map out mainly roads or slight terrains of cities or even countries (if modified). It then produces an image with the city roads on a black background (Background colour is adjustable).
 
 Mapper might be helpful in creating for you an offline map when you go anywhere or help you to plan routes for travelling.
 
@@ -14,4 +14,5 @@ Mapper gets a the user's city and the country to help locate the city on the map
 
 ## EXAMPLE OF WHAT MAPPER COULD PRODUCE.
 ![Figure_1](https://user-images.githubusercontent.com/69076784/131320403-9193dcb2-ba01-47b0-9330-10548a3c485e.png)
+
 (An Image of Singapore when asked to be retrieved by the program currently)
