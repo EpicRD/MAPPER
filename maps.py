@@ -1,19 +1,10 @@
 import osmnx as ox
-from geopy.geocoders import Nominatim
 
 
 print("Enter your City to map out: ")
 City = input()
 print("Enter your Country to map out: ")
 Country = input()
-
-# instantiate a new Nominatim client
-app = Nominatim(user_agent="tutorial")
-# get location coordinates data
-location = app.geocode(City).raw
-latitude = location["lat"]
-longitude = location["lon"]
-
 place = [City, Country]
 G = ox.graph_from_place(place, retain_all=True,
                         simplify=True, network_type='all')
