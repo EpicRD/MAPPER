@@ -1,10 +1,10 @@
 import osmnx as ox
 
-
 print("Enter your City to map out: ")
 City = input()
 print("Enter your Country to map out: ")
 Country = input()
+
 place = [City, Country]
 G = ox.graph_from_place(place, retain_all=True,
                         simplify=True, network_type='all')
@@ -30,18 +30,18 @@ for item in data:
     if "length" in item.keys():
         if item["length"] <= 100:
             linewidth = 0.10
-            color = "#a6a6a6"
+            color = "#d40a47"
 
         elif item["length"] > 100 and item["length"] <= 200:
             linewidth = 0.15
-            color = "#676767"
+            color = "#e78119"
 
         elif item["length"] > 200 and item["length"] <= 400:
             linewidth = 0.25
-            color = "#454545"
+            color = "#30bab0"
 
         elif item["length"] > 400 and item["length"] <= 800:
-            color = "#bdbdbd"
+            color = "#bbbbbb"
             linewidth = 0.35
         else:
             color = "#d5d5d5"
@@ -60,7 +60,7 @@ for item in data:
 for item in data:
     if "footway" in item["highway"]:
         color = "#ededed"
-        linewidth = 0.25
+        linewidth = 0.5
     else:
         color = "#a6a6a6"
         linewidth = 0.5

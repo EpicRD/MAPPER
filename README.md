@@ -15,4 +15,8 @@ Mapper gets a the user's city and the country to help locate the city on the map
 ## EXAMPLE OF WHAT MAPPER COULD PRODUCE.
 ![Figure_1](https://user-images.githubusercontent.com/69076784/131320403-9193dcb2-ba01-47b0-9330-10548a3c485e.png)
 
-(An Image of Singapore when asked to be retrieved by the program currently)
+(An Image of Singapore when asked to be retrieved by the program previously.)
+
+![Figure_2_Coloured](https://user-images.githubusercontent.com/69076784/139393630-1c1aa438-503c-46a2-a391-49e6b4420e42.PNG)
+
+(An Colored Image of Singapore when asked to be retrieved by the program currently.)
