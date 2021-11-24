@@ -27,6 +27,10 @@ for uu, vv, kkey, ddata in G.edges(keys=True, data=True):
 roadColors = []
 roadWidths = []
 
+###############################################################################
+#                           Colouring the Data                                #
+###############################################################################
+
 for item in data:
     if "length" in item.keys():
         if item["length"] <= 100:
