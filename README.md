@@ -21,3 +21,5 @@ Mapper gets a the user's city and the country to help locate the city on the map
 ![Figure_2_Coloured](https://user-images.githubusercontent.com/69076784/139393630-1c1aa438-503c-46a2-a391-49e6b4420e42.PNG)
 
 (An Colored Image of Singapore when asked to be retrieved by the program when user wanted some colours.)
+
+MAPPER Copyright (C) 2022 Epicalable LLC. All Rights Reserved.

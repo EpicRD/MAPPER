@@ -1,6 +1,7 @@
-#MAPPER Copyright (C) 2021 Epicalable LLC. All Rights Reserved.
+#MAPPER Copyright (C) 2022 Epicalable LLC. All Rights Reserved.
 import osmnx as ox
 
+print("MAPPER Copyright (C) 2022 Epicalable LLC. All Rights Reserved.")
 print("Enter your City to map out: ")
 City = input()
 print("Enter your Country to map out: ")
